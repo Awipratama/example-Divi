@@ -1,0 +1,53 @@
+body {
+  background-image: url('./Assets/Images/19742.jpg');
+}
+.jumbotron {
+  z-index: 2;
+}
+.bg-jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./Assets/Images/Flower2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; 
+  background-size: cover;
+}
+.offcanvas-body {
+  background: rgba(0, 0, 0, 0.1);
+}
+.bg-about {
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 50vh; */
+  aspect-ratio: 1/1;
+  border: solid 5px;
+  max-width: 300px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.btn {
+  background-color: #273036;
+}
+.bg {
+  background-color: #273036;
+  margin-top: -2px;
+}
+.icon {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.icon:hover {
+  transform: translateY(5px);
+}
+#offcanvasRightLabel {
+  font-size: 25px;
+  font-weight: 700;
+}
+.offcanvas {
+  background: rgba(255, 255, 255, 0.3);
+}
+.offcanvas-header {
+  background-color: #fcf8f4;
+}
+.card, .card-img-top {
+  border-radius: 10%;
+}
